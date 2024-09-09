@@ -1,3 +1,4 @@
+//models/Availability.ts
 import mongoose, { Document, Schema } from 'mongoose';
 
 interface IAvailability extends Document {

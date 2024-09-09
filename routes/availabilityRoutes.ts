@@ -1,4 +1,4 @@
-
+//routes/availabilityRoutes
 import express, { Request, Response } from 'express';
 import SlotModel from '../models/Slot';
 

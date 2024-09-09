@@ -1,3 +1,4 @@
+//routes/adminRoutes.ts
 import express, { Request, Response } from 'express';
 import UserModel from '../models/User'; // Ensure you have User model defined
 import SlotModel from '../models/Slot'; // Ensure you have Slot model defined

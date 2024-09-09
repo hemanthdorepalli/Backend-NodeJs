@@ -1,10 +1,11 @@
-
 import mongoose from 'mongoose';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const connectDB = async () => {
   try {
-    await mongoose.connect('mongodb+srv://hemanth267:Hemanth%40123@cluster0.abyag.mongodb.net/users', {
-    });
+    await mongoose.connect(process.env.MONGO_URI as string);
     console.log('MongoDB connected');
   } catch (error) {
     console.error('MongoDB connection error:', error);
@@ -12,4 +13,4 @@ const connectDB = async () => {
   }
 };
 
-export default connectDB; // Add this line for default export
+export default connectDB;

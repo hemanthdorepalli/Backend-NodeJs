@@ -1,3 +1,4 @@
+//models/Slot.ts
 import mongoose, { Document, ObjectId, Schema } from 'mongoose';
 
 // Define the Slot interface extending Document

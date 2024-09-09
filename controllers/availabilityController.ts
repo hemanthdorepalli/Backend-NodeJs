@@ -1,3 +1,4 @@
+//controllers/availabilityController.ts
 import { Request, Response } from 'express';
 import Availability from '../models/Availability'; // Make sure you have a model for Availability
 
