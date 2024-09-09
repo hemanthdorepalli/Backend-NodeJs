@@ -52,7 +52,7 @@ connectDB();
 
 // Middleware
 app.use(cors({
-  origin: process.env.CLIENT_URL || 'http://localhost:5022',
+  origin: process.env.CLIENT_URL || 'http://localhost:5022' || 'https://hemanthdorepalli.github.io' || '*',
   methods: 'GET,POST,PUT,DELETE',
   allowedHeaders: 'Content-Type',
 }));
